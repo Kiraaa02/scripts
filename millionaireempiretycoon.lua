@@ -1,5 +1,4 @@
-getgenv().magic = true;
-
+-- I don't need to obfuscate this one since it wasn't that hard to make
 while Wait() do
 if getgenv().magic == false then break end
 game:GetService("ReplicatedStorage").updateCollector:FireServer(1e18)
