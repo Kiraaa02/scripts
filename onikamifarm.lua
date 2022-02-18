@@ -1,5 +1,5 @@
 while Wait(0.1) do
-if getgenv().treasure == false then break end
+if getgenv().autofarm == false then break end
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1122.8292236328125, 212.28228759765625, -1751.1221923828125)
     local A_2 = "LetterQuestGuy"
     local Event = game:GetService("ReplicatedStorage").Remotes.GiverQuest
